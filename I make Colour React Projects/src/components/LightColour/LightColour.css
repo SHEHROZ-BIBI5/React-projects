@@ -1,0 +1,50 @@
+body, html, #root {
+    height: 85%;
+    margin: 0;
+    padding: 0;
+  }
+  
+   .app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+   .light-colour {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9d2b1;
+    min-height: 100px;
+    padding: 20px;
+  }
+   
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .colour-container {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 55px;
+    margin-bottom: 60px;
+  
+  }
+  
+  .colour-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: transform 0.2s;
+  }
+  
+  .colour-box:hover {
+    transform: scale(1.05);
+  } 
+  
